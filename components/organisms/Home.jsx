@@ -1,27 +1,32 @@
 import Button from "@material-tailwind/react/Button";
+import useDarkMode from "../../hooks/useDarkMode";
+import ToggleTheme from "../../components/atoms/ToggleTheme";
 import {
   ContainerPage,
   Header,
+  HomeContent,
+  HomeSection,
+  HomeSubtitle,
+  HomeTitle,
+  Image,
+  ImageContainer,
   Main,
   NavContainer,
   NavContent,
   NavLink,
   NavLinkActive,
   NavTitle,
-  HomeSection,
-  HomeContent,
-  HomeTitle,
-  HomeSubtitle,
-  ImageContainer,
-  Image,
-} from "../../templates";
+} from "../templates";
 
 const Home = () => {
+  const [colorTheme, setTheme] = useDarkMode();
+
   return (
     <ContainerPage>
       <Header>
         <NavContainer>
           <NavTitle>Fernando</NavTitle>
+          <ToggleTheme colorTheme={colorTheme} setTheme={setTheme} />
           <NavContent>
             <NavLinkActive>Home</NavLinkActive>
             <NavLink>Sobre Mim</NavLink>
@@ -53,11 +58,7 @@ const Home = () => {
         </HomeSection>
 
         <ImageContainer>
-          <Image
-            className=""
-            src="/fernando.jpg"
-            alt="Fernando Photo"
-          />
+          <Image className="" src="/fernando.jpg" alt="Fernando Photo" />
         </ImageContainer>
       </Main>
     </ContainerPage>
