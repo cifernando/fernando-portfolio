@@ -4,7 +4,7 @@ import { SocialContainer, SocialLinks } from "../templates";
 
 const SocialMedias = () => {
   return (
-    <SocialContainer>
+    <SocialContainer className="sm:flex-col sm:mt-0">
       <SocialLinks
         target="_blank"
         href="https://www.instagram.com/fernando_n_o/"

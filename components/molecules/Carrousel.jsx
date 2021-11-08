@@ -8,7 +8,6 @@ import {
   CarrouselImage,
   CarrouselSubtitle,
   Flex,
-  SocialLinks,
 } from "../templates";
 
 const Carrousel = ({ items }) => {
@@ -53,7 +52,7 @@ const Carrousel = ({ items }) => {
               ripple="dark"
               onClick={handleClick}
             >
-              <BsArrowLeft className="text-2xl" />
+              <BsArrowLeft className="text-xl" />
             </Button>
             <Button
               color="purple"
@@ -66,7 +65,7 @@ const Carrousel = ({ items }) => {
               ripple="dark"
               onClick={handleClick}
             >
-              <BsArrowRight className="text-2xl" />
+              <BsArrowRight className="text-xl" />
             </Button>
           </Flex>
         </div>
@@ -76,7 +75,7 @@ const Carrousel = ({ items }) => {
             {items[activeIndex].title}
           </CarrouselDescription>
         </div>
-        <div className="w-2/5">
+        <div className="w-2/5 invisible sm:visible">
           <CarrouselSubtitle>Ideia</CarrouselSubtitle>
           <CarrouselDescription>{items[activeIndex].idea}</CarrouselDescription>
         </div>
@@ -89,6 +88,12 @@ const Carrousel = ({ items }) => {
             block={false}
             iconOnly={false}
             ripple="dark"
+            onClick={() => {
+              window.open(
+                items[activeIndex].url,
+                "_blank"
+              );
+            }}
           >
             Veja o Projeto
           </Button>

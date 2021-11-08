@@ -84,19 +84,19 @@ export const ContainerProjects = tw.div`
 bg-gray-800 dark:bg-white select-none`
 
 export const ProjectsContent = tw.div`
-flex gap-10`
+gap-10 sm:flex`
 
 export const ProjectsTitle = tw.h1`
 block text-6xl font-bold text-center
-text-white dark:text-gray-800 lg:text-3xl`
+text-white dark:text-gray-800`
 
 export const ProjectsSubtitle = tw.h2`
 text-gray-300 dark:text-gray-600 text-center`
 
 export const SocialContainer = tw.div`
-flex flex-col justify-center gap-14`
+flex flex-row justify-center mt-5 gap-14`
 
 export const SocialLinks = tw.a`
 font-bold text-2xl cursor-pointer text-gray-600 dark:text-gray-300 text-center
-transform -rotate-90 border-4 border-transparent hover:shadow-lg
+border-4 border-transparent hover:shadow-lg
 hover:border-purple-700 hover:text-purple-700 rounded-lg py-2 px-3`

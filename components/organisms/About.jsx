@@ -31,12 +31,12 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-full h-64 lg:w-1/2 lg:h-auto">
+      <div className="w-full h-screen lg:w-1/2 lg:h-auto">
         <div
-          className="w-full h-full bg-cover"
+          className="w-full h-screen bg-cover"
           style={{ backgroundImage: 'url(/fernandoHero.jpg)' } }
         >
-          <div className="w-full h-full"></div>
+          <div className="w-full h-screen"></div>
         </div>
       </div>
     </div>
