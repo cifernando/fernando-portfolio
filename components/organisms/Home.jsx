@@ -22,15 +22,15 @@ const Home = () => {
   const [colorTheme, setTheme] = useDarkMode();
 
   return (
-    <ContainerPage>
+    <ContainerPage id="home">
       <Header>
         <NavContainer>
           <NavTitle>Fernando</NavTitle>
           <ToggleTheme colorTheme={colorTheme} setTheme={setTheme} />
           <NavContent>
-            <NavLinkActive>Home</NavLinkActive>
-            <NavLink>Sobre Mim</NavLink>
-            <NavLink>Projetos</NavLink>
+            <NavLinkActive href="#home">Home</NavLinkActive>
+            <NavLink href="#about">Sobre Mim</NavLink>
+            <NavLink href="#projects">Projetos</NavLink>
           </NavContent>
         </NavContainer>
       </Header>

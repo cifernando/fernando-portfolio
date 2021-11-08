@@ -2,7 +2,7 @@ import React from "react";
 import Carrousel from "../molecules/Carrousel";
 import items from "../data";
 import {
-  ContainerPage,
+  ContainerProjects,
   Main,
   NavContainer,
   ProjectsContent,
@@ -13,7 +13,7 @@ import SocialMedias from "../molecules/SocialMedias";
 
 const Projects = () => {
   return (
-    <ContainerPage>
+    <ContainerProjects id="projects">
       <NavContainer className="flex flex-col gap-9">
         <ProjectsTitle>
           Meus Projetos.
@@ -30,7 +30,7 @@ const Projects = () => {
           <SocialMedias />
         </ProjectsContent>
       </Main>
-    </ContainerPage>
+    </ContainerProjects>
   );
 };
 

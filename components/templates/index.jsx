@@ -57,7 +57,7 @@ object-cover w-full h-full max-w-2xl rounded-md`
 
 export const CarrouselContainer = tw.section`
 max-w-4xl mx-auto overflow-hidden rounded-bl-md
-rounded-tr-lg rounded-br-3xl shadow-xl bg-gray-800 dark:bg-white`
+rounded-tr-lg rounded-br-3xl shadow-xl bg-white dark:bg-gray-800`
 
 export const CarrouselTitleContainer = tw.div`
 flex items-center px-6 py-3 bg-gray-900`
@@ -72,23 +72,26 @@ export const CarrouselContent = tw.div`
 px-6 py-4 flex`
 
 export const CarrouselSubtitle = tw.h2`
-text-xl font-semibold text-white dark:text-gray-800`
+text-xl font-semibold text-gray-800 dark:text-white`
 
 export const CarrouselDescription = tw.p`
-py-2 text-gray-400 dark:text-gray-700`
+py-2 text-gray-700 dark:text-gray-400`
 
 export const CarrouselButtonContainer = tw.div`
-flex justify-between items-center mt-4 text-gray-700 dark:text-gray-200`
+flex justify-between items-center mt-4 text-gray-200 dark:text-gray-700`
+
+export const ContainerProjects = tw.div`
+bg-gray-800 dark:bg-white select-none`
 
 export const ProjectsContent = tw.div`
 flex gap-10`
 
 export const ProjectsTitle = tw.h1`
 block text-6xl font-bold text-center
-text-gray-800 dark:text-white lg:text-3xl`
+text-white dark:text-gray-800 lg:text-3xl`
 
 export const ProjectsSubtitle = tw.h2`
-text-gray-600 dark:text-gray-300 text-center`
+text-gray-300 dark:text-gray-600 text-center`
 
 export const SocialContainer = tw.div`
 flex flex-col justify-center gap-14`

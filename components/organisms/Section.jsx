@@ -47,11 +47,11 @@ const Section = () => {
               />
             </svg>
 
-            <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+            <h1 className="mt-4 text-xl font-semibold text-white dark:text-gray-800">
               Fully Responsive Components
             </h1>
 
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
+            <p className="mt-2 text-gray-400 dark:text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
               fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.
             </p>
@@ -88,11 +88,11 @@ const Section = () => {
               </defs>
             </svg>
 
-            <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+            <h1 className="mt-4 text-xl font-semibold text-white dark:text-gray-800">
               RTL Languages Support
             </h1>
 
-            <p className="mt-2 text-gray-500 dark:text-gray-400">
+            <p className="mt-2 text-gray-400 dark:text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
               fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.
             </p>

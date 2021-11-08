@@ -3,6 +3,8 @@ import Home from '../components/organisms/Home'
 import Projects from '../components/organisms/Projects';
 import { ContainerPage } from '../components/templates';
 import Section from '../components/organisms/Section';
+import About from '../components/organisms/About';
+import Footer from '../components/organisms/Footer';
 
 export default function Index() {
   return (
@@ -26,7 +28,9 @@ export default function Index() {
       </Head>
       <Home />
       <Section />
+      <About />
       <Projects />
+      <Footer />
     </ContainerPage>
   )
 };
