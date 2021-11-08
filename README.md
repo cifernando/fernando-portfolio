@@ -1,29 +1,45 @@
-# Next.js + Tailwind CSS Example
+# Meu Portfolio.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Essa é uma aplicação que reflete um pouquinho do que eusou, fiz com muito carinho.
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+Link para a aplicação: https://fernando-portfolio.vercel.app/
 
-## Preview
+![Captura de tela de 2021-11-08 11-19-13](https://user-images.githubusercontent.com/84880811/140759255-29b39585-590d-4b08-96d1-4dbc25a15c83.png)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+# Aprendizados
 
-## Deploy your own
+  * Utilizar o tailwind css e a bliblioteca styled-components em conjunto.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+  * Fazer deploy em uma aplicação utilizando Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+  * Criar um carrosel partindo do 0
 
-## How to use
+  * Entender mais sobre design e responsividade
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### STATUS DO PROJETO: Em andamento
+
+
+
+# Instruções para abrir o projeto no seu computador
+
+1. Clone o repositório
+  * `git clone git@github.com:cifernando/fernando-portfolio.git`
+  * Entre na pasta do repositório que você acabou de clonar:
+    * `cd fernando-portfolio`
+
+2. Instale as dependências e inicialize o projeto
+  * Instale as dependências:
+    * `npm install`
+  * Inicialize o projeto:
+    * `npm run dev` (uma nova página deve abrir no seu navegador)
+
+
+
+# Tecnologias utilizadas no projeto
+
+1. NextJs
+2. Tailwind CSS
+3. Tailwind-Styled-Components
