@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FadeIn from "react-fade-in";
 import Button from "@material-tailwind/react/Button";
+import { GiClick } from "react-icons/gi";
 import {
   AboutButtonContainer,
   AboutContainer,
@@ -69,6 +70,7 @@ const About = ({ items }) => {
                     }}
                   >
                     {items[activeIndex].button}
+                    <GiClick className="text-3xl" />
                   </Button>
                 </FadeIn>
               </AboutButtonContainer>
