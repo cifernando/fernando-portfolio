@@ -51,6 +51,11 @@ const Home = () => {
               block={true}
               iconOnly={false}
               ripple="light"
+              onClick={ () => {
+                window.open(
+                'mailto:nando.no@outlook.com',
+                "_blank"
+              ); } }
             >
               Entre em Contato
             </Button>

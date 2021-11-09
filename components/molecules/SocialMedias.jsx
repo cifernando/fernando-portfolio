@@ -9,16 +9,16 @@ const SocialMedias = () => {
         target="_blank"
         href="https://www.instagram.com/fernando_n_o/"
       >
-        <BsInstagram />
+        <BsInstagram className="hover:text-purple-60" />
       </SocialLinks>
       <SocialLinks
         target="_blank"
         href="https://www.linkedin.com/in/fernando-nascimento-oliveira/"
       >
-        <BsLinkedin />
+        <BsLinkedin className="hover:text-purple-60" />
       </SocialLinks>
       <SocialLinks target="_blank" href="https://github.com/cifernando">
-        <BsGithub />
+        <BsGithub className="hover:text-purple-60" />
       </SocialLinks>
     </SocialContainer>
   );

@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="bg-white dark:bg-gray-800">
         <div className="container px-6 py-8 mx-auto">
             <div className="text-center">
-            <a href="#" className="text-2xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Fernandão da Massa</a>
+            <a href="#" className="text-2xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Fernando</a>
 
-            <p className="max-w-md mx-auto mt-2 text-gray-500 dark:text-gray-400">Me CONTRATA!</p>
+            <p className="max-w-md mx-auto mt-2 text-gray-500 dark:text-gray-400">Quando é bom não tem melhor. - Erick Jaquin</p>
 
             </div>
 

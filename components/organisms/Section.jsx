@@ -22,12 +22,11 @@ const Section = () => {
             </svg>
 
             <h1 className="mt-4 text-xl font-semibold text-white dark:text-gray-800">
-              Default Taiwindcss Config
+              Eu amo trabalhar com React.
             </h1>
 
-            <p className="mt-2 text-gray-400 dark:text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
-              fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.
+            <p className="mt-2 text-justify text-gray-400 dark:text-gray-500">
+              Atualmente estou aprimorando meus conhecimentos com o NextJs, e aperfeiçoando a estilização dos meus sites com tailwind CSS.
             </p>
           </div>
 
@@ -48,18 +47,17 @@ const Section = () => {
             </svg>
 
             <h1 className="mt-4 text-xl font-semibold text-white dark:text-gray-800">
-              Fully Responsive Components
+              Sou fascinado por aprender coisas novas.
             </h1>
 
             <p className="mt-2 text-gray-400 dark:text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
-              fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.
+              Acredito que a diversidade de conhecimentos é um dos principais motivos para me tornar uma pessoa que entende melhor o mundo.
             </p>
           </div>
 
           <div>
             <svg className="w-8 h-8" viewBox="0 0 30 30" fill="none">
-              <g clip-path="url(#clip0)">
+              <g>
                 <path
                   d="M26.599 4.339a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zM7.151 25.661a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zM23.486 13.163a8.636 8.636 0 00-1.19-2.873l1.123-1.123-2.592-2.59L19.705 7.7a8.636 8.636 0 00-2.873-1.19V4.921h-3.664v1.586a8.634 8.634 0 00-2.873 1.19l-1.122-1.12-2.592 2.589 1.123 1.123a8.636 8.636 0 00-1.19 2.873H4.922l-.002 3.663h1.592A8.626 8.626 0 007.704 19.7l-1.127 1.127 2.59 2.591 1.128-1.127a8.623 8.623 0 002.873 1.19v1.597h3.664v-1.597a8.628 8.628 0 002.873-1.19l1.128 1.128 2.59-2.592-1.127-1.127a8.627 8.627 0 001.19-2.873h1.593v-3.664h-1.593zM15 19.256a4.255 4.255 0 110-8.511 4.255 4.255 0 010 8.51z"
                   fill="#4299E1"
@@ -81,20 +79,14 @@ const Section = () => {
                   fill="#4299E1"
                 />
               </g>
-              <defs>
-                <clipPath id="clip0">
-                  <path fill="#fff" d="M0 0h30v30H0z" />
-                </clipPath>
-              </defs>
             </svg>
 
             <h1 className="mt-4 text-xl font-semibold text-white dark:text-gray-800">
-              RTL Languages Support
+              Colaboração é o pilar.
             </h1>
 
             <p className="mt-2 text-gray-400 dark:text-gray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim
-              fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.
+              Foi ajudando e sendo ajudado que eu aprendi e aprendo todo dia, é algo que não abro mão.
             </p>
           </div>
         </div>

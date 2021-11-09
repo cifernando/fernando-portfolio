@@ -1,6 +1,6 @@
 import React from "react";
 import Carrousel from "../molecules/Carrousel";
-import items from "../data";
+import { items } from "../data";
 import {
   ContainerProjects,
   Main,

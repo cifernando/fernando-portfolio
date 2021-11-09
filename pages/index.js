@@ -6,6 +6,8 @@ import Section from '../components/organisms/Section';
 import About from '../components/organisms/About';
 import Footer from '../components/organisms/Footer';
 
+import { about } from '../components/data';
+
 export default function Index() {
   return (
     <ContainerPage>
@@ -28,7 +30,7 @@ export default function Index() {
       </Head>
       <Home />
       <Section />
-      <About />
+      <About items={ about } />
       <Projects />
       <Footer />
     </ContainerPage>
