@@ -1,10 +1,11 @@
 import React from "react";
+import { Section , SectionContent, SectionContainer, SectionDescription, SectionTitle } from "../templates/section";
 
-const Section = () => {
+const SectionPage = () => {
   return (
-    <section className="bg-gray-800 dark:bg-white">
-      <div className="container px-6 py-8 mx-auto">
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <Section>
+      <SectionContainer>
+        <SectionContent>
           <div>
             <svg className="w-8 h-8" viewBox="0 0 30 30" fill="none">
               <path
@@ -21,13 +22,13 @@ const Section = () => {
               />
             </svg>
 
-            <h1 className="mt-4 text-xl font-semibold text-white dark:text-gray-800">
+            <SectionTitle>
               Eu amo trabalhar com React.
-            </h1>
+            </SectionTitle>
 
-            <p className="mt-2 text-justify text-gray-400 dark:text-gray-500">
+            <SectionDescription>
               Atualmente estou aprimorando meus conhecimentos com o NextJs, e aperfeiçoando a estilização dos meus sites com tailwind CSS.
-            </p>
+            </SectionDescription>
           </div>
 
           <div>
@@ -46,13 +47,13 @@ const Section = () => {
               />
             </svg>
 
-            <h1 className="mt-4 text-xl font-semibold text-white dark:text-gray-800">
+            <SectionTitle>
               Sou fascinado por aprender coisas novas.
-            </h1>
+            </SectionTitle>
 
-            <p className="mt-2 text-gray-400 dark:text-gray-500">
+            <SectionDescription>
               Acredito que a diversidade de conhecimentos é um dos principais motivos para me tornar uma pessoa que entende melhor o mundo.
-            </p>
+            </SectionDescription>
           </div>
 
           <div>
@@ -81,18 +82,18 @@ const Section = () => {
               </g>
             </svg>
 
-            <h1 className="mt-4 text-xl font-semibold text-white dark:text-gray-800">
+            <SectionTitle>
               Colaboração é o pilar.
-            </h1>
+            </SectionTitle>
 
-            <p className="mt-2 text-gray-400 dark:text-gray-500">
+            <SectionDescription>
               Foi ajudando e sendo ajudado que eu aprendi e aprendo todo dia, é algo que não abro mão.
-            </p>
+            </SectionDescription>
           </div>
-        </div>
-      </div>
-    </section>
+        </SectionContent>
+      </SectionContainer>
+    </Section>
   );
 };
 
-export default Section;
+export default SectionPage;

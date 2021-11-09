@@ -1,3 +1,4 @@
+import FadeIn from "react-fade-in";
 import Button from "@material-tailwind/react/Button";
 import useDarkMode from "../../hooks/useDarkMode";
 import ToggleTheme from "../../components/atoms/ToggleTheme";
@@ -38,27 +39,32 @@ const Home = () => {
       <Main>
         <HomeSection>
           <HomeContent>
-            <HomeTitle>Oi, eu sou o Fernando!</HomeTitle>
-            <HomeSubtitle>
-              Eu sou inerentemente curioso. Acredito que a alteridade com o
-              mundo e com quem nele vive é o pilar de tudo. Busco a excelência.
-            </HomeSubtitle>
-            <Button
-              color="purple"
-              buttonType="filled"
-              size="lg"
-              rounded={false}
-              block={true}
-              iconOnly={false}
-              ripple="light"
-              onClick={ () => {
-                window.open(
-                'mailto:nando.no@outlook.com',
-                "_blank"
-              ); } }
-            >
-              Entre em Contato
-            </Button>
+            <FadeIn transitionDuration="2000">
+              <HomeTitle>Oi, eu sou o Fernando!</HomeTitle>
+            </FadeIn>
+            <FadeIn transitionDuration="2000" delay="1500">
+              <HomeSubtitle>
+                Eu sou inerentemente curioso. Acredito que a alteridade com o
+                mundo e com quem nele vive é o pilar de tudo. Busco a
+                excelência.
+              </HomeSubtitle>
+            </FadeIn>
+            <FadeIn transitionDuration="2000" delay="3000">
+              <Button
+                color="purple"
+                buttonType="filled"
+                size="lg"
+                rounded={false}
+                block={true}
+                iconOnly={false}
+                ripple="light"
+                onClick={() => {
+                  window.open("mailto:nando.no@outlook.com", "_blank");
+                }}
+              >
+                Entre em Contato
+              </Button>
+            </FadeIn>
           </HomeContent>
         </HomeSection>
 

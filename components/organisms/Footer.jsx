@@ -1,32 +1,32 @@
 import React from 'react'
+import { FooterContainer, FooterContainerLinks, FooterContent, FooterContentLinks, FooterDescription, FooterHr, FooterLink, FooterPage, FooterRights, FooterTitle } from '../templates/footer'
 
 const Footer = () => {
   return (
-    
-    <footer className="bg-white dark:bg-gray-800">
-        <div className="container px-6 py-8 mx-auto">
-            <div className="text-center">
-            <a href="#" className="text-2xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Fernando</a>
+    <FooterPage>
+        <FooterContainer>
+            <FooterContent>
+            <FooterTitle href="#home">Fernando</FooterTitle>
 
-            <p className="max-w-md mx-auto mt-2 text-gray-500 dark:text-gray-400">Quando é bom não tem melhor. - Erick Jaquin</p>
+            <FooterDescription>Quando é bom não tem melhor. - Erick Jaquin</FooterDescription>
 
-            </div>
+            </FooterContent>
 
-            <hr className="my-10 dark:border-gray-500" />
+            <FooterHr />
 
-            <div className="flex flex-col items-center sm:flex-row sm:justify-between">
-            <p className="text-sm text-gray-400">© Copyright 2021. All Rights Reserved.</p>
+            <FooterContainerLinks>
+            <FooterRights>© Copyright 2021. All Rights Reserved.</FooterRights>
 
-            <div className="flex mt-3 -mx-2 sm:mt-0">
-                <a href="#home" className="mx-2 text-sm text-gray-400 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"> Home </a>
+            <FooterContentLinks>
+                <FooterLink href="#home"> Home </FooterLink>
 
-                <a href="#about" className="mx-2 text-sm text-gray-400 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"> Sobre Mim </a>
+                <FooterLink href="#about"> Sobre Mim </FooterLink>
 
-                <a href="#projects" className="mx-2 text-sm text-gray-400 hover:text-gray-500 dark:hover:text-gray-300" aria-label="Reddit"> Meus Projetos </a>
-            </div>
-            </div>
-        </div>
-    </footer>
+                <FooterLink href="#projects"> Meus Projetos </FooterLink>
+            </FooterContentLinks>
+            </FooterContainerLinks>
+        </FooterContainer>
+    </FooterPage>
   )
 }
 

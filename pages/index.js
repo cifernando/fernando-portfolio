@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Home from '../components/organisms/Home'
 import Projects from '../components/organisms/Projects';
 import { ContainerPage } from '../components/templates';
-import Section from '../components/organisms/Section';
 import About from '../components/organisms/About';
 import Footer from '../components/organisms/Footer';
+import SectionPage from '../components/organisms/SectionPage';
 
 import { about } from '../components/data';
 
@@ -29,7 +29,7 @@ export default function Index() {
         />
       </Head>
       <Home />
-      <Section />
+      <SectionPage />
       <About items={ about } />
       <Projects />
       <Footer />
