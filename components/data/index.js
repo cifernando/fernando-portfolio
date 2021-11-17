@@ -3,8 +3,14 @@ export const items = [
     image: '/trybewallet.png',
     title: 'Trybewallet',
     idea: 'Aplicação que gerência despesas.',
-    url: 'https://trybewallet-taupe.vercel.app/',
-  }
+    url: 'https://github.com/cifernando/trybewallet',
+  },
+  {
+    image: '/lista-tarefas.png',
+    title: 'Lista de Tarefas',
+    idea: 'Aplicação que gerencia tarefas.',
+    url: 'https://github.com/cifernando/lista-de-tarefas-docker',
+  },
 ];
 
 export const about = [
