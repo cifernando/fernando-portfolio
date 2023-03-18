@@ -1,6 +1,6 @@
 # Meu Portfolio.
 
-Essa é uma aplicação que reflete um pouquinho do que eu sou, fiz com muito carinho.
+Essa é uma aplicação que reflete um pouquinho do que eu sou, fiz com muito apreço.
 
 Link para a aplicação: https://fernando-portfolio.vercel.app/
 
