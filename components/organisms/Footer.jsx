@@ -8,7 +8,7 @@ const Footer = () => {
             <FooterContent>
             <FooterTitle href="#home">Fernando</FooterTitle>
 
-            <FooterDescription>Quando é bom não tem melhor. - Erick Jaquin</FooterDescription>
+            <FooterDescription>Senior Software Engineer · React & Node Specialist · São Paulo, Brazil</FooterDescription>
 
             </FooterContent>
 
@@ -20,9 +20,9 @@ const Footer = () => {
             <FooterContentLinks>
                 <FooterLink href="#home"> Home </FooterLink>
 
-                <FooterLink href="#about"> Sobre Mim </FooterLink>
+                <FooterLink href="#about"> About Me </FooterLink>
 
-                <FooterLink href="#projects"> Meus Projetos </FooterLink>
+                <FooterLink href="#projects"> My Projects </FooterLink>
             </FooterContentLinks>
             </FooterContainerLinks>
         </FooterContainer>

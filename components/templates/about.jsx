@@ -1,10 +1,10 @@
 import tw from "tailwind-styled-components"
 
 export const AboutContainer = tw.div`
-lg:flex h-screen w-screen`
-  
+lg:flex lg:h-screen w-screen`
+
 export const AboutContent = tw.div`
-flex items-center justify-center w-full px-6 py-8 lg:h-128 lg:w-1/2`
+flex items-center justify-center w-full px-6 py-8 lg:w-1/2 lg:h-screen`
 
 export const AboutTitle = tw.h2`
 text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl`
@@ -19,4 +19,4 @@ export const AboutButtonContainer = tw.div`
 flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row`
 
 export const AboutImageContainer = tw.div`
-w-full h-full lg:w-1/2 lg:h-auto`
+w-full overflow-hidden lg:w-1/2 lg:h-screen`

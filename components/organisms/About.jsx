@@ -84,9 +84,10 @@ const About = ({ items }) => {
       )}
 
       <AboutImageContainer>
-        <div
-          className="w-full h-full bg-cover"
-          style={{ backgroundImage: `url(${items[activeIndex].image})` }}
+        <img
+          src={items[activeIndex].image}
+          alt="Fernando"
+          className="w-full h-auto lg:h-full lg:w-full lg:object-cover lg:object-top"
         />
       </AboutImageContainer>
     </AboutContainer>

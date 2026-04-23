@@ -23,11 +23,11 @@ const SectionPage = () => {
             </svg>
 
             <SectionTitle>
-              Eu amo trabalhar com React.
+              I love working with React.
             </SectionTitle>
 
             <SectionDescription>
-              Atualmente estou aprimorando meus conhecimentos com o NextJs, e aperfeiçoando a estilização dos meus sites com tailwind CSS.
+              I've been working with React for 4+ years, building scalable interfaces with TypeScript, Redux, and Node.js — from mobile webviews to checkout systems handling thousands of simultaneous users.
             </SectionDescription>
           </div>
 
@@ -48,11 +48,11 @@ const SectionPage = () => {
             </svg>
 
             <SectionTitle>
-              Sou fascinado por aprender coisas novas.
+              I'm fascinated by learning new things.
             </SectionTitle>
 
             <SectionDescription>
-              Acredito que a diversidade de conhecimentos é um dos principais motivos para me tornar uma pessoa que entende melhor o mundo.
+              I believe that a breadth of knowledge is one of the main reasons someone becomes better at understanding the world — and building great software.
             </SectionDescription>
           </div>
 
@@ -83,11 +83,11 @@ const SectionPage = () => {
             </svg>
 
             <SectionTitle>
-              Colaboração é o pilar.
+              Collaboration is the cornerstone.
             </SectionTitle>
 
             <SectionDescription>
-              Foi ajudando e sendo ajudado que eu aprendi e aprendo todo dia, é algo que não abro mão.
+              I've always grown through collaboration — whether working across international teams, sharing practices with 300+ colleagues, or learning from people with different perspectives.
             </SectionDescription>
           </div>
         </SectionContent>

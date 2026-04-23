@@ -16,10 +16,10 @@ const Projects = () => {
     <ContainerProjects id="projects">
       <NavContainer className="flex flex-col gap-9">
         <ProjectsTitle>
-          Meus Projetos.
+          My Projects.
         </ProjectsTitle>
         <ProjectsSubtitle>
-          Estes são alguns dos projetos que desenvolvi estudando na Trybe.
+          Here are some of the projects I've built throughout my journey as a developer.
         </ProjectsSubtitle>
       </NavContainer>
       <Main className="justify-center">

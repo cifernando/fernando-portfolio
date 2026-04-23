@@ -37,7 +37,7 @@ const Carrousel = ({ items }) => {
         <div className="w-1/5 mr-5 flex flex-col justify-between">
           <Flex className="justify-evenly">
             <CarrouselSubtitle>{activeIndex + 1}</CarrouselSubtitle>
-            <CarrouselSubtitle>de</CarrouselSubtitle>
+            <CarrouselSubtitle>of</CarrouselSubtitle>
             <CarrouselSubtitle>{items.length}</CarrouselSubtitle>
           </Flex>
           <Flex className="justify-between">
@@ -70,13 +70,13 @@ const Carrousel = ({ items }) => {
           </Flex>
         </div>
         <div className="w-1/5">
-          <CarrouselSubtitle>Projeto</CarrouselSubtitle>
+          <CarrouselSubtitle>Project</CarrouselSubtitle>
           <CarrouselDescription>
             {items[activeIndex].title}
           </CarrouselDescription>
         </div>
         <div className="w-2/5 invisible sm:visible">
-          <CarrouselSubtitle>Ideia</CarrouselSubtitle>
+          <CarrouselSubtitle>About</CarrouselSubtitle>
           <CarrouselDescription>{items[activeIndex].idea}</CarrouselDescription>
         </div>
         <div className="w-2/5 flex justify-center">
@@ -95,7 +95,7 @@ const Carrousel = ({ items }) => {
               );
             }}
           >
-            Veja o Projeto
+            View Project
           </Button>
         </div>
       </CarrouselContent>

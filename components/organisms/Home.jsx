@@ -30,8 +30,8 @@ const Home = () => {
           <ToggleTheme colorTheme={colorTheme} setTheme={setTheme} />
           <NavContent>
             <NavLinkActive href="#home">Home</NavLinkActive>
-            <NavLink href="#about">Sobre Mim</NavLink>
-            <NavLink href="#projects">Projetos</NavLink>
+            <NavLink href="#about">About Me</NavLink>
+            <NavLink href="#projects">Projects</NavLink>
           </NavContent>
         </NavContainer>
       </Header>
@@ -40,13 +40,13 @@ const Home = () => {
         <HomeSection>
           <HomeContent>
             <FadeIn transitionDuration="2000">
-              <HomeTitle>Oi, eu sou o Fernando!</HomeTitle>
+              <HomeTitle>Hi, I'm Fernando!</HomeTitle>
             </FadeIn>
             <FadeIn transitionDuration="2000" delay="1500">
               <HomeSubtitle>
-                Eu sou inerentemente curioso. Acredito que a alteridade com o
-                mundo e com quem nele vive é o pilar de tudo. Busco a
-                excelência.
+                I'm inherently curious. I believe that openness to the world
+                and to the people in it is the foundation of everything.
+                I pursue excellence.
               </HomeSubtitle>
             </FadeIn>
             <FadeIn transitionDuration="2000" delay="3000">
@@ -62,7 +62,7 @@ const Home = () => {
                   window.open("mailto:nando.no@outlook.com", "_blank");
                 }}
               >
-                Entre em Contato
+                Get in Touch
               </Button>
             </FadeIn>
           </HomeContent>
